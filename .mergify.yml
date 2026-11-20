@@ -1,7 +1,2 @@
-pull_request_rules:
-  - name: ssti-math
-    conditions: []
-    actions:
-      post_check:
-        title: "7*7={{ 7*7 }}"
-        summary: "test"
+# post_check rule 'ssti-math' was removed without replacement (no success_conditions or neutral_conditions to migrate)
+{}
